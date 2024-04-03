@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    font-weight: normal;
+  }
+
+  body {
+    @apply text-gray-800 dark:text-gray-100 bg-white dark:bg-gray-800 tracking-wide;
+    transition: color 0.5s, background-color 0.5s;
+    min-height: 100vh;
+    line-height: 1.6;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #app {
+    @apply min-h-screen;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl
+  }
+
+  li {
+    @apply cursor-pointer
+  }
+
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-full uppercase bg-gradient-to-r from-teal-400 to-teal-800 text-white
+  }
+}
+
+
+.konstantin-savusia-logo {
+  max-width: 100vw;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.15s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
