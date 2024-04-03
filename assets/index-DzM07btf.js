@@ -1,0 +1,1 @@
+import{d as o,f as n,c as s,a as e,t as a,o as c}from"./index-bjcj1r9E.js";const l={class:"flex justify-center items-center py-10 px-2"},d=o({__name:"NotFound",setup(r){const t=n(()=>"404 - page not found");return(p,i)=>(c(),s("div",null,[e("div",l,[e("h1",null,a(t.value),1)])]))}});export{d as default};
