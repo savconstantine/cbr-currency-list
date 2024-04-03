@@ -1,0 +1,7 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="bgCarrier" stroke-width="0"></g>
+  <g id="tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+  <g id="iconCarrier">
+    <path d="M18 10L21 7M21 7L18 4M21 7H7M6 14L3 17M3 17L6 20M3 17H17" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+</svg>
