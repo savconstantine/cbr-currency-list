@@ -1,5 +1,7 @@
 # cbr-currency-list
 
+# <a href="https://cbr-currency-list.vercel.app/" target="_blank" rel="noreferrer">Demo - https://cbr-currency-list.vercel.app/</a>
+
 ## Project Setup
 
 ```sh
