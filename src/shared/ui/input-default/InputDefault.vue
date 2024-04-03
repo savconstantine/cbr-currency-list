@@ -2,7 +2,6 @@
   <div class="relative w-full">
     <input
       ref="inputRef"
-      type="text"
       v-model="inputValue"
       class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
       :placeholder="placeholder"
@@ -11,6 +10,7 @@
       @click="onClick"
       @keydown.enter="onEnter"
       :disabled="disabled"
+      :type="type"
     />
   </div>
 </template>
@@ -22,12 +22,14 @@ interface IProps {
   placeholder?: string;
   value?: string;
   disabled?: boolean;
+  type?: string;
 }
 
 const props = withDefaults(defineProps<IProps>(), {
   placeholder: "",
   value: "",
   disabled: false,
+  type: "text",
 });
 
 const emit = defineEmits([

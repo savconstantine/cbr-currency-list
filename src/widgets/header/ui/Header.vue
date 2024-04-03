@@ -10,7 +10,7 @@
           <h1
             class="text-center text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
           >
-            vue3 boilerplate
+            CBR Currency
           </h1>
         </div>
         <div class="sm:hidden">

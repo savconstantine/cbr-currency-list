@@ -9,7 +9,11 @@
         />
       </div>
       <div class="col-span-2">
-        <InputDefault :value="amountLeft" @input="setAmountLeft" />
+        <InputDefault
+          :value="amountLeft"
+          @input="setAmountLeft"
+          :type="'number'"
+        />
       </div>
       <div class="row-span-2 flex items-center justify-center">
         <button
@@ -28,7 +32,7 @@
         />
       </div>
       <div class="col-span-2">
-        <InputDefault disabled :value="amountRight" />
+        <InputDefault disabled :value="amountRight" :type="'number'" />
       </div>
     </div>
   </div>
